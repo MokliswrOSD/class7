@@ -1,0 +1,120 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,700&display=swap');
+
+*{
+	
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+img{
+	max-width: 100%;
+}
+/* COMMON CSS */
+.container{
+	max-width: 900px;
+	margin: auto;
+
+}
+.alignCenter{
+	align-items: center;
+}
+.justifyCenter{
+	justify-content: center;
+}
+.flex{
+	display: flex;
+}
+ .wrap{
+ 	flex-wrap: wrap;
+ 	gap:10px;
+ }
+ /* HEADER CSS */
+ header{
+	background-color: #c7c7c740;
+	border: 2px solid #54724c21;
+}
+.logo{
+	
+	flex-basis: 20%;
+}
+.logo a{}
+.logo a img{}
+nav{
+	
+	flex-basis: 80%;
+	
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	
+
+
+}
+nav ul li a{
+
+	color: #14541f;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition-duration: 0.4s;
+    font-weight: 600;
+
+}
+
+nav ul li a:hover{
+
+background-color:  #14541f;
+color:#fff;
+}
+
+/*** herobenner ***/
+
+.heroBenner {
+	background: #80bf8b url(../images/ing3.jpg);
+	min-height: 700px;
+	background-repeat: no-repeat;
+	background-position-y:bottom;
+	background-size:cover;
+	background-blend-mode: 
+} 
+.heroContent h1{
+	
+	    font-size: 60px;
+    color: #fff;
+    font-weight: 800px;
+    line-height: 80px;
+
+}
+.heroContent p{
+	color: #fff;
+	font-size: 18px;
+}
+/*** gallerySection ***/
+.gallerySection{
+	padding: 20px 0;
+}
+.galleryImg{
+	flex-basis: 33.33%;
+	padding: 10px;
+}
+.galleryImg img{
+	width: 100%;
+	border-radius: 15px;
+	display: block;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+
+	
+
+
+
